@@ -13,6 +13,6 @@ node index
 # 再回到Vue2.x开启本地服务器localhost:8088
 npm run dev
 
-# 发布环境
+# 发布
 npm run build
 ```
