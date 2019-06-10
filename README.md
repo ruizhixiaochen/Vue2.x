@@ -3,7 +3,7 @@
 # 克隆到本地
 git clone https://github.com/dand1022/Vue2.x.git
 
-# 把test.sql加入数据库
+# 进入Mysql控制台把test.sql加入数据库
 source 路径
 
 # 进入文件夹
