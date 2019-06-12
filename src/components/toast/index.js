@@ -1,7 +1,7 @@
 import vue from 'vue'
 
 // 这里就是我们刚刚创建的那个静态组件
-import toastComponent from './toast.vue'
+import toastComponent from '@/components/toast/toast.vue'
 
 // 返回一个 扩展实例构造器, 关于 vue.extend 有不懂的同学,可以去查看以下官方文档 https://cn.vuejs.org/v2/api/#Vue-extend
 const ToastConstructor = vue.extend(toastComponent)

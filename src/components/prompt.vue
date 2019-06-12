@@ -113,7 +113,7 @@ export default{
   width: 16px;
   height: 17px;
   padding: 4px 5px;
-  background: url(../assets/img/ui.png) no-repeat -16px -16px;
+  background: url(~@/assets/img/ui.png) no-repeat -16px -16px;
   text-indent: -9999em;
   opacity: .7;
   cursor: pointer;
@@ -140,7 +140,7 @@ export default{
   padding: 18px 10px 0;
   line-height: 51px;
   border-radius: 0 0 13px 13px;
-  background: url(../assets/img/account-bottom-bar-bg.png) 0 0 repeat-x;
+  background: url(~@/assets/img/account-bottom-bar-bg.png) 0 0 repeat-x;
 }
 .blue-main-btn, .gray-main-btn, .jianguo-blue-main-btn{
   display: block;

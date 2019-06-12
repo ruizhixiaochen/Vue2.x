@@ -39,6 +39,7 @@
 		<div class="nav-sub">
 			<div class="nav-sub-wrapper">
 				<div class="container">
+					<ul class="github-logo" @click="goGithub('github.com/dand1022/Vue2.x')"></ul>
 					<ul class="nav-list">
 						<router-link tag='li' to="/"><a href="javascript:;">首页</a></router-link>
 						<li><a href="javascript:;" @click="indexTips">手机</a></li>
@@ -54,7 +55,6 @@
 				</div>
 			</div>
 		</div>
-		<div class="github-logo" @click="goGithub('github.com/dand1022/Vue2.x')"></div>
 	</div>
 </template>
 
@@ -102,13 +102,15 @@
 <style>
 	.github-logo {
 		z-index:1000;
-		position: fixed;
-		left: 5%;
+		position: absolute;
+		right: 5%;
 		top: 21%;
-		background-image: url(../assets/github_logo_48x48.png);
+		background-image: url(~@/assets/github_logo_48x48.png);
 		padding: 24px;
+		cursor: pointer;
+		transition: all .3s linear;
 	}
 	.github-logo:hover{
-		opacity: 0.6;
+		opacity: .6;
 	}
 </style>

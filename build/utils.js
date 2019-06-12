@@ -54,7 +54,8 @@ exports.cssLoaders = function (options) {
       return ExtractTextPlugin.extract({
 				//ExtractTextPlugin可提取出文本，代表首先使用上面处理的loaders，当未能正确引入时使用vue-style-loader
         use: loaders,
-        fallback: 'vue-style-loader'
+        fallback: 'vue-style-loader',
+				publicPath: '../../'
       })
     } else {
       return ['vue-style-loader'].concat(loaders)

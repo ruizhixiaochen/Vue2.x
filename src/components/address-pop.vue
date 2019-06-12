@@ -282,6 +282,7 @@
 		height: 30px;
 		line-height: 30px;
 		font-size: 30px;
+		background: url(~@/assets/img/ui.png) no-repeat -16px -16px;
 		color: #000;
 		opacity: .2;
 		cursor: pointer;
@@ -429,7 +430,7 @@
 		position: relative;
 		width: 20px;
 		height: 20px;
-		background: url(../assets/img/checkbox-bg.png) no-repeat;
+		background: url(~@/assets/img/checkbox-bg.png) no-repeat;
 		cursor: pointer;
 	}
 
@@ -441,7 +442,7 @@
 
 	#pop .blue-checkbox-on,
 	.choose-checkbox-on .blue-checkbox {
-		background: url(../assets/img/checkbox-bg.png) 0 -20px no-repeat;
+		background: url(~@/assets/img/checkbox-bg.png) 0 -20px no-repeat;
 	}
 
 	#pop .dialog-blue-btn {

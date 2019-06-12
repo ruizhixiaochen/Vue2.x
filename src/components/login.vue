@@ -7,7 +7,7 @@
 					<div class="dialog-tit clear">
 						<h4><B>登陆</B></h4>
 					</div>
-					<span class="dialog-close" @click="closeLogin()">x</span>
+					<span class="dialog-close" @click="closeLogin()"></span>
 				</div>
 				<div class="dialog-con js-dialog-container">
 					<div class="animate-layer">
@@ -44,7 +44,7 @@
 					<div class="dialog-tit clear">
 						<h4><B>注册</B></h4>
 					</div>
-					<span class="dialog-close" @click="closeLogin()">x</span>
+					<span class="dialog-close" @click="closeLogin()"></span>
 				</div>
 				<div class="dialog-con js-dialog-container">
 					<div class="animate-layer">
@@ -401,6 +401,7 @@
 		width: 30px;
 		height: 30px;
 		line-height: 30px;
+		background: url(~@/assets/img/ui.png) no-repeat -16px -16px;
 		font-size: 30px;
 		color: #000;
 		opacity: .2;
@@ -656,7 +657,7 @@
 
 	#lg .blue-checkbox-on,
 	.choose-checkbox-on .blue-checkbox {
-		background: url(../assets/img/checkbox-bg.png) 0 -20px no-repeat;
+		background: url(~@/assets/img/checkbox-bg.png) 0 -20px no-repeat;
 	}
 
 	#lg .dialog-blue-btn {

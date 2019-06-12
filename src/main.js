@@ -10,7 +10,7 @@ import 'element-ui/lib/theme-chalk/index.css'
 
 Vue.use(Toast)
 
-axios.defaults.baseURL = 'http://127.0.0.1:3211'
+axios.defaults.baseURL = '/spring/'
 axios.defaults.headers['Content-Type'] = 'application/json'
 Vue.config.productionTip = false
 Vue.prototype.$axios = axios
