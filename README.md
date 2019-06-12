@@ -1,5 +1,5 @@
 # Vue2.x
-简易商城（Vue+Vuex+Mysql+前后端分离）
+简易商城（Vue+Vuex+Mysql+nginx前后端分离）
 
 ### 项目运行
 
